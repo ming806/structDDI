@@ -215,7 +215,7 @@ def setup_seed_without_random(seed):
 
 if __name__ == "__main__":
     path_lists = []
-    dataset_name = ['biosnap_raw', 'ddi_binary_raw', 'cci900_raw']
+    dataset_name = ['biosnap_raw', 'ddi_binary_raw']
     class_number_list = [2, 2, 2]
     path = "../data/"
     suffix_list = [
